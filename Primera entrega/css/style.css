@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  margin: 20px;
+}
+
+main {
+  color: white;
+}
+
+h1 {
+  color: red;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+}
+.logo {
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(201, 21, 21);
+  font-style: initial;
+}
+.imgEquipos {
+  width: auto;
+}
+.imgPilotos {
+  width: 650px;
+  height: 400px;
+}
+
+ol {
+  margin-left: 30px;
+}
+
+footer {
+  text-align: center;
+  text-decoration: double;
+  margin-bottom: 10%;
+}
+
+body {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header"
+    "texto"
+    "imagen"
+    "footer";
+}
+
+img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  flex-wrap: nowrap;
+}
+
+.informacion_piloto {
+  display: flex;
+}
